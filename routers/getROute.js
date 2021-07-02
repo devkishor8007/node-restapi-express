@@ -3,7 +3,7 @@ const express = require('express');
 const route = express.Router();
 const data = require('../model/data');
 
-route.get('/get/', async (req, res) => {
+route.get('/', async (req, res) => {
     var getData = await data.find();
     if (getData) return res.status(200).send(getData);
     return res.status(400).send("error");

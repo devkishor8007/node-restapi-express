@@ -1,5 +1,4 @@
 const express = require('express');
-// const data = require('/model/data');
 const route = express.Router();
 const data = require('../model/data');
 

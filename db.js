@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.connect('mongodb+srv://blogPost:blogPost@cluster0.ilquw.gcp.mongodb.net/testDatas?retryWrites=true&w=majority', {
+require('dotenv').config();
+mongoose.connect(process.env.MongoDB, {
     useCreateIndex: true,
     useUnifiedTopology: true,
     useNewUrlParser: true,

@@ -13,6 +13,7 @@ Also, ```PUT``` and ```DELETE``` are the http request used that can edit and del
 
 #### Make sure you have Node.js
     git clone https://github.com/devkishor8007/node-restapi-express.git
+    create a .env then type MongoDB = yourMongoDBURlLink
     npm start
 
 Your app should now be running on ```localhost:7000```

@@ -22,3 +22,15 @@ Your app should now be running on ```localhost:7000```
     heroku create anyname
     git push heroku master
     heroku open
+
+## Some Terms - You should know
+
+```REST``` stands for Representational State Transfer. REST has SSL and HTTPS for security. REST API uses Web Application Description Language for describing the functionalities being offered by web services
+
+```API``` stands for Application Program Interface; a set of routines, protocols and tools for building software and applications.
+
+```Node.js``` is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+```Express js``` is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+```MongoDB``` is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas

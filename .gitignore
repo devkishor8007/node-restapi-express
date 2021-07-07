@@ -1,5 +1,5 @@
 #ignore
 
 .env
-node_module
+node_modules
 package-lock.json

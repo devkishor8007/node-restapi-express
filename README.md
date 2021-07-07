@@ -35,3 +35,10 @@ Your app should now be running on ```localhost:7000```
 ```Express js``` is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
 ```MongoDB``` is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
+#
+
+### How to add 'node_modules' to .gitignore file?
+
+    git rm -r --cached node_modules
+    git commit -m 'Remove the now ignored directory node_modules'
+    git push origin <branch-name>
